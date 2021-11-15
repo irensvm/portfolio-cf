@@ -113,7 +113,7 @@ a:hover {
 
 @media only screen and (max-width: 600px){
     .work-details {
-        background-color: yellow;
+        background-color: rgb(114, 114, 104);
     }
      
 }
