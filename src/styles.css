@@ -27,6 +27,21 @@ h1 {
     font-weight: 700;
     margin: 0;
 }
+
+h2, h3 {
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 50px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
 .hero-section {
     text-align: center;
     margin-top: 17vh;
@@ -80,5 +95,26 @@ a {
 .social svg {
     fill:rgb(255, 255, 255)
 
+}
+
+.work-details {
+    width: 50%;
+
+}
+.work-details td{
+    padding: 30px;
+
+}
+
+a:hover {
+    color: rgb(255, 0, 166);
+
+}
+
+@media only screen and (max-width: 600px){
+    .work-details {
+        background-color: yellow;
+    }
+     
 }
 
