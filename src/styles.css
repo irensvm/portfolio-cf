@@ -145,6 +145,7 @@ a:hover {
     position: relative;
     display: flex;
     justify-content: center;
+    
 }
 
 .aboutme {
@@ -157,3 +158,4 @@ a:hover {
     margin: 40px 10px 10px 10px;
     border-radius: 50%;
 }
+
